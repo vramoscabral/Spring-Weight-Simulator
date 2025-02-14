@@ -1,0 +1,7 @@
+{
+    "Lua.runtime.version": "Lua 5.1",
+    "Lua.workspace.library": [
+      "C:\\caminho-do-repositorio-onde-o-Love-foi-instalado\\Love\\love.exe"
+    ],
+    "Lua.diagnostics.globals": ["love"]
+  }
