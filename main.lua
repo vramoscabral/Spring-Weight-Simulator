@@ -72,7 +72,7 @@ function love.load()
 
 
     -- Atualiza o tamanho do chão e do teto com a nova largura
-    ground = love.physics.newBody(world, groundX, love.graphics.getHeight() - (altura / 2), "static")
+    ground = love.physics.newBody(world, groundX, groundY, "static")
     local groundShape = love.physics.newRectangleShape(largura, altura)
     love.physics.newFixture(ground, groundShape)
 
